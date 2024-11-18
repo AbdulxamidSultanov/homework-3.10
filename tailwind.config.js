@@ -3,6 +3,9 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     extend: {
+      fontFamily: {
+        inter: 'Inter, sans-serif',
+      },
       backgroundColor: {
         dark: "#101017",
         gray: "#313131",
